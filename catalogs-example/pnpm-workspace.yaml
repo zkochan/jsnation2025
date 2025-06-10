@@ -1,0 +1,14 @@
+packages:
+  - project1
+  - project2
+
+catalog:
+  is-odd: 1.0.0
+  react: 16.8.1
+
+catalogMode: strict
+
+configDependencies:
+  '@zkochan/jsnation.catalogs': 0.1.0+sha512-5bJZ+n0KU7UkUuScrwh0MDw0kd0bz9X7+4yVUPq8ASQsxEaXpzDcB7HPSwciFXzERTM8fmPUmvBk7BAp01nTeQ==
+
+pnpmfile: node_modules/.pnpm-config/@zkochan/jsnation.catalogs/pnpmfile.cjs
