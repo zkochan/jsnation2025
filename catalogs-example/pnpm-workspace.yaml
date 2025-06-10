@@ -1,6 +1,5 @@
 packages:
-  - project1
-  - project2
+  - '*'
 
 catalog:
   is-odd: 1.0.0
