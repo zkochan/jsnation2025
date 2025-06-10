@@ -1,0 +1,4 @@
+patchedDependencies:
+  is-odd: ./is-odd.patch
+
+patchesDir: .

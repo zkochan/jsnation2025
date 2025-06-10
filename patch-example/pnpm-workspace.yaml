@@ -1,0 +1,4 @@
+configDependencies:
+  '@zkochan/jsnation.is-odd-patch': 1.0.0+sha512-WHJ08CqTYrEkpzBMuIIeefy9EfO1epXtw+V9u8bzEcNkajdC+J6rwSvNUbzMd9rLxZLoblTYb0nXpU8K270cGQ==
+patchedDependencies:
+  is-odd: node_modules/.pnpm-config/@zkochan/jsnation.is-odd-patch/is-odd.patch

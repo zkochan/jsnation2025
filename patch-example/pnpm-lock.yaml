@@ -1,0 +1,36 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+patchedDependencies:
+  is-odd:
+    hash: 90d8f803dacde22cc4d29af2828a4a930276c2402d615680dacb36bcb2eae954
+    path: node_modules/.pnpm-config/@zkochan/jsnation.is-odd-patch/is-odd.patch
+
+importers:
+
+  .:
+    dependencies:
+      is-odd:
+        specifier: ^3.0.1
+        version: 3.0.1(patch_hash=90d8f803dacde22cc4d29af2828a4a930276c2402d615680dacb36bcb2eae954)
+
+packages:
+
+  is-number@6.0.0:
+    resolution: {integrity: sha512-Wu1VHeILBK8KAWJUAiSZQX94GmOE45Rg6/538fKwiloUu21KncEkYGPqob2oSZ5mUT73vLGrHQjKw3KMPwfDzg==}
+    engines: {node: '>=0.10.0'}
+
+  is-odd@3.0.1:
+    resolution: {integrity: sha512-CQpnWPrDwmP1+SMHXZhtLtJv90yiyVfluGsX5iNCVkrhQtU3TQHsUWPG9wkdk9Lgd5yNpAg9jQEo90CBaXgWMA==}
+    engines: {node: '>=4'}
+
+snapshots:
+
+  is-number@6.0.0: {}
+
+  is-odd@3.0.1(patch_hash=90d8f803dacde22cc4d29af2828a4a930276c2402d615680dacb36bcb2eae954):
+    dependencies:
+      is-number: 6.0.0
