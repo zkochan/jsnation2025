@@ -1,0 +1,38 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      socks:
+        specifier: 2.0.0
+        version: 2.0.0
+
+packages:
+
+  ip@1.1.9:
+    resolution: {integrity: sha512-cyRxvOEpNHNtchU3Ln9KC/auJgup87llfQpQ+t5ghoC/UhL16SWzbueiCsdTnWmqAWl7LadfuwhlqmtOaqMHdQ==}
+
+  smart-buffer@4.2.0:
+    resolution: {integrity: sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==}
+    engines: {node: '>= 6.0.0', npm: '>= 3.0.0'}
+
+  socks@2.0.0:
+    resolution: {integrity: sha512-X+rADtE/rmfFprDa3r+uMjHEiAyQC9W8lYof1s1xiwCCQ9Xo3dUYQJ/qTqOVFIvWeFpCiow6PkoMa3pqlNTbCA==}
+    engines: {node: '>= 4.0.0', npm: '>= 3.0.0'}
+    deprecated: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+
+snapshots:
+
+  ip@1.1.9: {}
+
+  smart-buffer@4.2.0: {}
+
+  socks@2.0.0:
+    dependencies:
+      ip: 1.1.9
+      smart-buffer: 4.2.0

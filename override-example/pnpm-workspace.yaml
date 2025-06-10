@@ -1,0 +1,3 @@
+configDependencies:
+  '@zkochan/jsnation.override-socks': 0.1.0+sha512-UVPDK18BayuS4lDbNEOtQEdIJpIa6RwDU2LXFgWCy8vUROjzW+a1l940C55iduIrEuMi9YwOuUf76RpFZGzFkQ==
+pnpmfile: node_modules/.pnpm-config/@zkochan/jsnation.override-socks/pnpmfile.cjs
